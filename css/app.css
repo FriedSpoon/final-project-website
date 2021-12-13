@@ -1,0 +1,763 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  position:fixed;
+  width:100%;
+  background:rgba(0, 0, 0,.2)
+}
+main{
+  marign:0;
+}
+body{
+  font-family: proxima-soft, sans-serif;
+  height:650vh;
+  margin:0;
+}
+.nav-container{
+  height:8vh;
+  padding-top:1rem;
+  text-align:center;
+
+  margin:0;
+  overflow:hidden;
+  
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:0% 100%;
+}
+.nav-container a{
+  color:#FFFFC4;
+}
+.nav-container ul{
+  margin:0;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.nav-container ul li{
+  list-style:none;
+  margin:0;
+}
+.nav-container ul .home-nav{
+  grid-column: 1;
+}
+.nav-container ul .learn-more-nav{
+  grid-column: 2;
+}
+.nav-container ul .about-us-nav{
+  grid-column: 4;
+}
+.nav-container ul .shop-nav{
+  grid-column: 5;
+}
+nav a{
+  text-decoration: none;
+}
+
+.quaken{
+  width:auto;
+  height:60%;
+  grid-column:3;
+  grid-row:1;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+
+
+.duck-intro-section {
+  color:white;
+  padding-top:10rem;
+  margin:0;
+  height:100vh;
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  background-color: #e5e5e5;
+  background-image: url("https://i.postimg.cc/dVMQMjsS/DSF0104.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:0% 45%;
+  
+  
+}
+
+@media only screen and (min-width: 70em) {
+  .duck-intro h1{
+  padding-right:4rem;
+    margin-bottom:1rem;
+}
+  .duck-intro p{
+    margin-bottom:1rem;
+  }
+  .footer-content{
+    height:100vh;
+  background-color: #F26628;
+  display:grid;
+     grid-template-columns:1fr 1fr 1fr;
+   text-align:left;
+    color:white;
+    padding:3rem;
+}
+  .fab{
+    font-size:3rem;
+    margin-top:1rem;
+    padding-right:1rem;
+  }
+  .fab:hover{
+    font-size:3.5rem;
+    color: blue;
+    margin-top:1rem;
+    padding-right:1rem;
+  }
+  .footer-logo{
+    display:grid;
+    align-items:center;
+    justify-items:center;
+  }
+  .footer-address{
+    display:grid;
+    grid-column:1 / span 3;
+    align-items:center;
+    align-text:center;
+justify-items:center;
+    margin:0;
+    padding:0;
+  }
+  .footer-nav ul{
+   text-decoration: none;
+   list-style:none;
+   margin:0;
+    padding:0;
+    padding-top:1rem;
+    color:white;
+  }
+  .footer-nav li{
+    font-size:1.5rem;
+      list-style:none;
+     margin:0;
+    padding:0;
+    padding-top:1rem;
+    color:white;
+    text-decoration:none;
+  }
+  .footer-nav a{
+    color:white;
+    text-decoration:none;
+  }
+   .footer-nav a:hover{
+    color:blue;
+    text-decoration:none;
+  }
+  .stay-connected h2{
+    color:black;
+    padding-bottom:3rem;
+  }
+  .footer-nav h2{
+    color:black;
+  }
+  .form-input{
+    padding-top:5rem;
+  }
+  .form-confirmation-message{
+color:#F26628
+  }
+  .drop-in{
+    color:white;
+  }
+  
+  
+  
+  
+  
+  
+
+.duck-intro{
+margin-left: 120vh;
+margin-right: auto;
+}
+.duck-intro p{
+  font-size:1.5rem;
+  padding-right:1rem;
+}
+  p{
+    font-size:1.5rem;
+  }
+  .ducking-around-section {
+  height:100vh;
+  background-image: url("https://i.postimg.cc/C19JVpYW/DSF0099.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:0% 45%;
+  color:white;
+  padding:5rem;
+}
+.content{
+  display:grid;
+  grid-template-columns:1fr ;
+  grid-template-rows:1fr ;
+  padding-bottom:2rem;
+}
+
+
+.duck-intro-para{
+  line-height:1.2rem;
+  grid-column: 2;
+  grid-row:3;
+}
+.duck-intro-para{
+  display:grid;
+  grid-template-columns:1fr 1fr ;
+    grid-template-rows:1fr 1fr ;
+
+  font-family: proxima-soft, sans-serif;
+
+}
+
+.duck-around-para{
+  font-family: proxima-soft, sans-serif;
+  margin:0;
+  padding-bottom:1rem;
+ 
+}
+.headings{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  font-family: proxima-soft, sans-serif;
+  font-size:1.2rem;
+  font-weight:700;
+  text-transform:uppercase;
+  margin:0;
+  grid-gap:1rem;
+  padding-left:2rem;
+  
+}
+.paragraphs{
+    display:grid;
+  grid-gap:1rem;
+  padding-left:2rem;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  
+}
+.duck-around-para p{
+  display:inline;
+  padding:1rem;
+  font-family: proxima-soft, sans-serif;
+  margin:0;
+  font-size:1rem;
+  padding:0;
+  width:80%;
+}
+  .our-story-content .our-story-p{
+  font-size:2rem;
+  width:40%;
+}
+.our-story-content{
+  padding:3rem;
+}
+.our-story-content h1{
+  font-size:80px;
+}
+.our-story-content h2{
+  margin-top:3rem;
+}
+}
+
+.duck-intro button{
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 1rem;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #fff;
+  font-size:1.5rem;
+
+}
+.duck-intro button:hover{
+ 
+ background: blue;
+  color: inherit;
+  border: none;
+  padding: 1rem;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border: 1px solid #fff;
+  font-size:1.5rem;
+}
+
+
+
+
+
+
+
+
+
+.wildlife-supporting-section {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  height:75vh;
+  background-color: #F26628;
+}
+.wildlife-supporting-section2 {
+  display:grid;
+  grid-template-columns:.7fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height:75vh;
+  background-color: #F26628;
+}
+.wildlife-supporting-section3 {
+  height:auto;
+  width:auto;
+  
+  overflow:hidden;
+ 
+}
+.where-to-buy{
+padding:3rem;
+}
+.where-to-buy button{
+  background: none;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #fff;
+  font-size:1.5rem;
+margin-top:1rem;
+}
+  
+.where-to-buy button:hover{
+ 
+ background: blue;
+  color: inherit;
+  border: none;
+  padding: 1rem;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border: 1px solid #fff;
+  font-size:1.5rem;
+}
+
+.shop-section{
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 100vh;
+background-image: url();
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right 15% bottom 55%;
+background-color: #F26628;
+
+}
+.shop-section h2{
+  margin-top:4rem;
+}
+
+.image{
+  background-image: url('https://i.postimg.cc/G2tq46Tn/DSF0097.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right 15% bottom 55%;
+}
+
+.wildlife-pres-section {
+  display:grid;
+    padding:2rem;
+
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  height:100vh;
+  background-color: #e5e5e5;
+  background-image: url("https://i.postimg.cc/fTSb2jSk/Mask-Group-1.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.wild-life-content{
+  display:grid;
+  grid-template-rows:1fr;
+  grid-template-columns:1fr;
+  text-align:center;
+  padding-top: 2rem;
+}
+.wild-life-content h1{
+  font-size:80px;
+  margin-bottom:1rem;
+}
+.wild-life-content h2{
+  margin-top:2rem;
+}
+.wild-life-content2{
+
+  
+  margin:1rem;
+  padding:0;
+}
+.wild-life-content2 h1{
+  font-size:80px;
+}
+.wild-life-content2 h2{
+    margin-top:2rem;
+
+}
+
+
+.wild-life2-p{
+  width:50%;
+  font-size:2rem;
+}
+
+.our-story-section{
+  display:grid;
+  grid-template-columns:1fr;
+  height:100vh;
+  background-image: url("https://i.postimg.cc/3RQdMtVt/DSF0096.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+background-position: right 15% bottom 55%;
+  color:white;
+  padding:2rem;
+}
+.faq-section{
+  background-color: #e5e5e5;
+  background-image: url("https://i.postimg.cc/gJn1LYSm/Mask-Group-2-blue.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:0% 45%;
+  padding:2rem;
+  height:150vh;
+  background-color: #e5e5e5;
+  display:grid;
+  grid-template-rows:1fr 1fr 1fr 1fr;
+  text-align:center;
+  overflow: scroll;
+}
+.faq-section{
+  color:white;
+  
+}
+@media only screen and (min-width: 70em) {
+  .statistic {
+  font-size: 10rem;
+  font-weight: 700;
+}
+.statistic1 {
+  padding: 2rem;
+  font-size: 10rem;
+  font-weight: 700;
+  color:white;
+}
+.statistic1-2 {
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color:white;
+grid-row:2;
+}
+.wild-life-stats-bar h2{
+  font-size:30px;
+  font-family: proxima-soft, sans-serif;
+  font-weight:700;
+  color:white;
+}
+.wild-life-stats-bar2 h2{
+  font-size:30px;
+  font-family: proxima-soft, sans-serif;
+  font-weight:700;
+  color:white;
+}
+.ducks-sold h2{
+  font-size:30px;
+  font-family: proxima-soft, sans-serif;
+  font-weight:700;
+  color:white;
+}
+h2{
+    line-height:1;
+
+  font-size:42px;
+  font-family: proxima-soft, sans-serif;
+  font-weight:300;
+  margin:0;
+  text-transform: uppercase;
+}
+  h1{
+  line-height:1;
+  font-size:80px;
+  font-family: proxima-soft, sans-serif;
+  font-weight:600;
+  margin:0
+}
+  p{
+    line-height:1;
+  font-size:1.5rem;
+  font-family: proxima-soft, sans-serif;
+  font-weight:300;
+  margin:0;
+}
+}
+@media only screen and (max-width: 70em) {
+  .statistic {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.statistic1 {
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color:white;
+}
+.statistic1-2 {
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color:white;
+grid-row:2;
+}
+.wild-life-stats-bar h2{
+  font-size:30px;
+  font-family: proxima-soft, sans-serif;
+  font-weight:700;
+  color:white;
+}
+.wild-life-stats-bar2 h2{
+  font-size:30px;
+  font-family: proxima-soft, sans-serif;
+  font-weight:700;
+  color:white;
+}
+.ducks-sold h2{
+  font-size:30px;
+  font-family: proxima-soft, sans-serif;
+  font-weight:700;
+  color:white;
+}
+  .footer-content{
+  background-color: #F26628;
+}
+footer h2{
+ 
+}
+  .footer-logo{
+    display:grid;
+    align-item:center;
+    justify-items:center;
+  }
+  .footer-nav{
+    display:grid;
+    align-text:center;
+    align-items:center;
+    justify-items:center;
+  }
+    .footer-nav ul{
+      align-text:center;
+   text-decoration: none;
+   list-style:none;
+   margin:0;
+    padding:0;
+    padding-top:1rem;
+    color:white;
+  }
+  .footer-nav li{
+      list-style:none;
+     margin:0;
+    padding:0;
+    color:white;
+    text-decoration:none;
+  }
+  .footer-nav a{
+    color:white;
+    text-decoration:none;
+  }
+   .footer-nav a:hover{
+    color:blue;
+    text-decoration:none;
+  }
+  .form{
+
+  }
+    .form-input{
+    padding-top:3rem;
+  }
+  .form-confirmation-message{
+    display:none;
+color:#F26628
+  }
+  .drop-in{
+    color:white;
+  }
+  .stay-connected .fab{
+    padding-top:1rem;
+    display:grid;
+    text-align:center;
+    align-content:center;
+    justify-content:center;
+    justify-items:center;
+    color:white;
+  }
+  .image{
+  background-image: url('https://i.postimg.cc/G2tq46Tn/DSF0097.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right 15% bottom 55%;
+}
+
+h1{
+  font-size:3rem;
+      text-align:center;
+
+  line-height:1;
+  padding:0;
+  margin:0;
+  text-shadow: #FC0 1px 0 1px;
+}
+  h2{
+    font-size:1rem;
+    line-height:1;
+    text-shadow: #000000 1px 0 1px;
+    text-align:center;
+  }
+  p{
+    align-items:center;
+        text-align:center;
+font-size:1rem;
+    line-height:1;
+    text-shadow: #000000 1px 0 1px;
+  }
+  .ducking-around-section {
+  height:150vh;
+  background-image: url("https://i.postimg.cc/C19JVpYW/DSF0099.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:25% 100%;
+  color:white;
+}
+.content{
+  display:grid;
+  grid-template-columns:1fr ;
+  grid-template-rows:1fr ;
+}
+
+
+.duck-intro-para{
+  line-height:1.2rem;
+  
+}
+.duck-intro-para{
+  display:grid;
+  grid-template-columns:1fr;
+    grid-template-rows:1fr;
+
+  font-family: proxima-soft, sans-serif;
+  
+
+}
+
+.duck-around-para{
+  font-family: proxima-soft, sans-serif;
+  margin:0;
+  text-align:center;
+ 
+}
+.headings{
+  display:grid;
+  grid-template-columns:1fr;
+  font-family: proxima-soft, sans-serif;
+  font-size:1.5rem;
+  font-weight:700;
+  text-transform:uppercase;
+  margin:0;
+  
+}
+.paragraphs{
+    display:none;
+  grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  text-align:center;
+  
+
+  
+}
+.duck-around-para p{
+  display:inline;
+  padding:1rem;
+  font-family: proxima-soft, sans-serif;
+  margin:0;
+  font-size:1rem;
+  padding:0;
+  width:80%;
+}
+  .our-story-content .our-story-p{
+  font-size:1rem;
+text-align:center;}
+.our-story-content{
+}
+.our-story-content h1{
+  font-size:36px;
+}
+.our-story-content h2{
+}
+}
+
+.q1, .q2, .q3, .q4{
+}
+
+
+.q1 h1{
+  font-size:33px;
+  color:#FFFFC4;
+  filter: drop-shadow(0 0 1rem crimson);
+  
+}
+.q1 p{
+  font-size:23px;
+    color:#FFFFC4;
+    filter: drop-shadow(0 0 1rem crimson);
+
+}
+.q2 h1{
+  font-size:33px;
+    color:#FFFFC4;
+    filter: drop-shadow(0 0 1rem crimson);
+
+}
+.q2 p{
+  font-size:23px;
+    color:#FFFFC4;
+    filter: drop-shadow(0 0 1rem crimson);
+
+}
+.q3 h1{
+  font-size:33px;
+    color:#FFFFC4;
+    filter: drop-shadow(0 0 1rem crimson);
+
+}
+.q3 p{
+  font-size:23px;
+    color:#FFFFC4;
+    filter: drop-shadow(0 0 1rem crimson);
+
+}
+
+.wild-life-stats-bar{
+  display: grid;
+  grid-template-columns:2fr 2fr 2fr;
+}
+.wild-life-stats-bar2{
+
+}
+.content h2{
+  padding-top:2rem;
+}
+
+
